@@ -19,7 +19,7 @@ Auditing is used for collecting information on what is happening in the system, 
 partial: headers
 
 
-## Configuring Message Forwarding
+## Forwarding every message processed
 
 partial: config
 

@@ -50,3 +50,7 @@ The NServiceBus gateway has been moved to a separate `NServiceBus.Gateway` packa
 - Configure the gateway API by invoking the `endpointConfiguration.Gateway(...)` method, passing as an argument the selected storage configuration instance:
   - [Documentation for NServiceBus.Gateway.Sql](/nservicebus/gateway/sql/)
   - [Documentation for NServiceBus.Gateway.RavenDB](/nservicebus/gateway/ravendb/)
+
+## Support for message forwarding
+
+Support for forwarding a copy of every message processed by the endpoint is no longer provided by NServiceBus. Instead, create a custom behavior to forward a copy of every procesed message as described in [this sample](/samples/routing/message-forwarding).
